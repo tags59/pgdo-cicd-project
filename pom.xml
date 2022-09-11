@@ -27,7 +27,8 @@
         <inherited>true</inherited>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.2</version>
+        <version>3.3.2</version>
+        <type>maven-plugin</type>
          <executions>
           <execution>
             <phase>package</phase>
