@@ -20,8 +20,8 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <version>3.0.0</version>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>3.0.0.clean</version>
         <executions>
           <execution>
             <phase>package</phase>
