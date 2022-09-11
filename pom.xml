@@ -23,11 +23,10 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
-        <type>maven-plugin</type>
-         <executions>
-          <execution>
-            <phase>package</phase>
-            <goals><goal>copy</goal></goals>
+        <executions>
+         <execution>
+          <phase>package</phase>
+          <goal>copy</goals>
             <configuration>
               <artifactItems>
                 <artifactItem>
