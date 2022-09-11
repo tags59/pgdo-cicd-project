@@ -14,12 +14,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.jenkins-ci.main</groupId>
-      <artifactId>maven-plugin</artifactId>
-      <version>3.19</version>
-    </dependency>    
-      </dependencies>
+  </dependencies>
   <build>
     <finalName>pgdo-cicd-project</finalName>
     <plugins>
