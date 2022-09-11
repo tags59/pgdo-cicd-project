@@ -9,6 +9,7 @@
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
@@ -24,10 +25,7 @@
         <executions>
           <execution>
             <phase>package</phase>
-            <goals>
-              <goal>copy</goal>
-              <goal>maven-compiler-plugin</goal>
-            </goals>
+            <goals><goal>copy</goal></goals>
             <configuration>
               <artifactItems>
                 <artifactItem>
