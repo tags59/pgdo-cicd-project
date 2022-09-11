@@ -26,7 +26,7 @@
         <executions>
           <execution>
             <phase>package</phase>
-            <goal>copy</goals>
+            <goals><goal>copy</goal><goals>
             <configuration>
               <artifactItems>
                 <groupId>com.github.jsimone</groupId>
